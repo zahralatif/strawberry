@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="<https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js>"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Sweet Strawberry</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sweet Strawberry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="main-overlay"></div>
+        <div class="main-content">
+            <h1>Welcome to Sweet Strawberry</h1>
+            <p>Experience the freshest and most delicious strawberries!</p>
+            <a href="#products" class="btn btn-primary">Our Products</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <br><br>
+            <h2>Our Products</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="strawberryjam.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Jam</h5>
+                            <p class="card-text">Delicious homemade strawberry jam made with fresh and natural
+                                ingredients.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="smoothie.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Ice Cream</h5>
+                            <p class="card-text">Creamy and refreshing strawberry ice cream, made with the freshest
+                                strawberries.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="smoo.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Smoothie</h5>
+                            <p class="card-text">Healthy and delicious strawberry smoothie, made with fresh
+                                strawberries.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="promise">
+        <div class="container">
+            <br>
+            <h2>Our Promise</h2><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="strawberry_chocolate.jpg" alt="our promise image">
+                </div>
+                <div class="col-md-6">
+                    <p>We promise to always provide our customers with the freshest and most delicious strawberries
+                        possible. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Expedita aut cumque similique! Cumque asperiores temporibus tempore vitae expedita
+                        voluptate, eveniet quae distinctio iusto sit molestias alias voluptatum id, odit maxime. Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ipsa quidem, commodi accusantium
+                        fugiat id sit aperiam quibusdam sequi ducimus quo reprehenderit ex placeat voluptas rem saepe
+                        esse eum! Quod?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <p>If you have any questions or comments, please don't hesitate to get in touch with us!</p>
+                        <ul>
+                            <li>Email: <a href="mailto:info@sweetstrawberry.com">info@sweetstrawberry.com</a></li>
+                            <li>Phone: 555-555-5555</li>
+                            <li>Address: 1234 Strawberry Lane</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <br><br>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    Are strawberries fresh?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur doloribus voluptatum nulla
+                        esse ipsum maxime, vero eius dolor nisi quidem obcaecati fugit in odio harum distinctio tempore
+                        molestiae error quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam
+                        eaque cum nulla mollitia ducimus, quae voluptatibus amet? Voluptate, accusamus aspernatur
+                        incidunt aliquid laudantium mollitia officiis neque autem sunt illo</i>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    Are products homemade?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur doloribus voluptatum nulla
+                        esse ipsum maxime, vero eius dolor nisi quidem obcaecati fugit in odio harum distinctio tempore
+                        molestiae error quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                        consequuntur unde, maiores ullam soluta impedit suscipit assumenda fuga totam, deserunt fugiat
+                        omnis voluptatibus sapiente ratione dolores aliquam, eum dolor asperiores.</i>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Are strawberry products sold only in summer?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur doloribus voluptatum nulla
+                        esse ipsum maxime, vero eius dolor nisi quidem obcaecati fugit in odio harum distinctio tempore
+                        molestiae error quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                        consequuntur unde, maiores ullam soluta impedit suscipit assumenda fuga totam, deserunt fugiat
+                        omnis voluptatibus sapiente ratione dolores aliquam, eum dolor asperiores.</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <footer class="bg-dark text-white text-center py-2">
+        <p>Made with love by Sweet Strawberry &#169; 2023</p>
+    </footer>
+
+</body>
+
+</html>
