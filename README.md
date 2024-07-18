@@ -1,5 +1,9 @@
 # Strawberry Project
 
+## Overview
+
+Strawberry is a web application that showcases a simple yet elegant design for a web page. This project is built using HTML and CSS, demonstrating the fundamentals of web development with a focus on layout, styling, and responsiveness.
+
 ## Table of Contents
 
 - [Strawberry Project](#strawberry-project)
@@ -11,11 +15,6 @@
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Contact](#contact)
- 
-
-## Overview
-
-Strawberry is a web application that showcases a simple yet elegant design for a web page. This project is built using HTML and CSS, demonstrating the fundamentals of web development with a focus on layout, styling, and responsiveness.
 
 
 ## Features
