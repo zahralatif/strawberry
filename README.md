@@ -9,7 +9,6 @@
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Project Structure](#project-structure)
   - [Contributing](#contributing)
   - [Contact](#contact)
  
@@ -60,17 +59,6 @@ Simply open the `index.html` file in your web browser to view the project.
    - On Windows: Double-click the `index.html` file.
    - On macOS or Linux: Right-click the `index.html` file and choose "Open with" and select your browser.
 
-## Project Structure
-
-```
-strawberry/
-├── css/
-│   ├── styles.css       # Main stylesheet
-├── images/
-│   ├── [image files]    # Image assets
-├── index.html           # Main HTML file
-└── README.md            # Project README file
-```
 
 ## Contributing
 
